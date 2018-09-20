@@ -10,15 +10,14 @@ public class CountDig {
 
             int number = i * i;
 
-            while (number >= 10) {
+            while (true) {
                 if (number % 10 == d) {
                     occurrence++;
                 }
+                if (number < 10) {
+                    break;
+                }
                 number /= 10;
-            }
-
-            if (number % 10 == d) {
-                occurrence++;
             }
         }
         return occurrence;
