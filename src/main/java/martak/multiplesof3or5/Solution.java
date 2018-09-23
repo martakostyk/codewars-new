@@ -1,4 +1,4 @@
-package martak.multiplesOf3or5;
+package martak.multiplesof3or5;
 
 import java.util.stream.IntStream;
 
